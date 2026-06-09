@@ -1,0 +1,29 @@
+# Large output folders
+orthofinder_runs/
+OUT_fungal_fixed/
+OUT_*/
+logs/
+*.out
+*.err
+
+# Sequence/tree/data outputs
+*.fa
+*.faa
+*.fasta
+*.sam
+*.bam
+*.zip
+*.tar.gz
+*.treefile
+*.ckp.gz
+*.model.gz
+
+# Python/R/cache files
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+
+# Mac/VS Code
+.DS_Store
+.vscode/
